@@ -66,10 +66,10 @@ public class BlackJack {
     			System.out.println("Your total number is " + totalNumber);
     			cards[drawnCard] = null;
     				
-    				if(totalNumber == 21) {
+    				if(totalNumber == 2001) {
 	    				System.out.println("BlackJack! " + player1Name + " won!");
 	    				gameContinuation = false;
-	    			} else if(totalNumber > 21) {
+	    			} else if(totalNumber > 2001) {
 	    				System.out.println("You lose " + player1Name + "! Your score is " + totalNumber);
 	    				gameContinuation = false;
 	    			}
