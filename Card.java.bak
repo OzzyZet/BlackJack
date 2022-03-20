@@ -8,7 +8,7 @@ class Card {
 	//Welcome message
 	static {
 		
-    	System.out.println("*****Welcome to Black Jack with Ozzy!*****");
+    	System.out.println("*****Welcome to BlackJack with Ozzy!*****");
     	System.out.println();
 	}
 	
